@@ -1,0 +1,43 @@
+# Netflix Data Analytics - Required Dependencies
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+
+# Deep Learning
+tensorflow>=2.14.0
+torch>=2.1.0
+keras>=2.14.0
+
+# Recommendation Systems
+surprise>=1.1.3
+implicit>=0.7.0
+
+# Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+
+# Natural Language Processing
+nltk>=3.8
+spacy>=3.7.0
+
+# Utilities
+jupyter>=1.0.0
+ipython>=8.15.0
+tqdm>=4.66.0
+pyyaml>=6.0
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# API & Web
+requests>=2.31.0
+flask>=3.0.0
