@@ -14,42 +14,68 @@ Netflix's Data & Insights team drives the company's mission to entertain over 30
 
 ## 📋 Table of Contents
 
-- [Job Roles](#job-roles)
-- [Core Technologies](#core-technologies)
-- [Technical Domains](#technical-domains)
-- [Required Skills](#required-skills)
-- [Preferred Qualifications](#preferred-qualifications)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 
-## 💼 Job Roles
 
-The Netflix Data & Insights team offers various positions:
+## 📁 Project Structure
 
-### Research & Applied Science
+```
+netflix-data-insight-research-scientist/
+├── data_loader.py                    # Basic: Data loading and preprocessing
+├── exploratory_analysis.py            # Medium: Statistical analysis and EDA
+├── user_segmentation.py               # Medium: User clustering and segmentation
+├── recommendation_engine.py           # High: Collaborative filtering system
+├── content_similarity.py              # High: Content-based recommendations
+├── neural_collaborative_filtering.py  # Advanced: Deep learning recommendations
+├── requirements.txt                   # Project dependencies
+└── README.md                          # This file
+```
 
-- **Research Scientist/Engineer (L5/L6)** - AI for Member Systems
-- **Machine Learning Engineer** - Various specializations
-- **Software Engineer** - LLM Evaluation & Infrastructure
+## 🚀 Getting Started
 
-### Engineering Leadership
+### Prerequisites
 
-- **Engineering Manager** - Model Development, ML Platform
-- **Senior Manager** - Content Data Engineering
+```bash
+python >= 3.8
+pandas >= 1.3.0
+numpy >= 1.21.0
+scikit-learn >= 0.24.0
+tensorflow >= 2.6.0
+pytorch >= 1.9.0
+```
 
-### Specialized Engineering
+### Installation
 
-- **Machine Learning Software Engineer (L4/L5)**
-- **Senior Data Engineer** - Content Management & Distribution
-- **Software Engineer** - Training Platform, ML Platform
-- **ML Engineer** - Ads Platform Engineering
+```bash
+# Clone the repository
+git clone https://github.com/Rishav-raj-github/netflix-data-insight-research-scientist.git
 
-## 🛠️ Core Technologies
+# Navigate to the project directory
+cd netflix-data-insight-research-scientist
 
-### Programming Languages
+# Install dependencies
+pip install -r requirements.txt
+```
 
-#### Required
+### Usage
 
-- **Python** - Primary language for ML and data engineering
-- **TensorFlow** - Deep learning framework
-- **PyTorch** - Deep learning and research
+Each script demonstrates different skill levels:
+
+```bash
+# Basic level - Data loading and preprocessing
+python data_loader.py
+
+# Medium level - Exploratory analysis
+python exploratory_analysis.py
+
+# High level - Recommendation engine
+python recommendation_engine.py
+
+# Advanced level - Neural collaborative filtering
+python neural_collaborative_filtering.py
+```
+
+---
+
+*This repository serves as a portfolio project demonstrating data science and machine learning skills relevant to Netflix's Data & Insights team roles.*
